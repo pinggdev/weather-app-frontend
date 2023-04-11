@@ -1,7 +1,9 @@
+import Login from "./pages/Login";
+
 function App() {
   return (
     <div className="App">
-      <p className="text-danger">test</p>
+      <Login />
     </div>
   );
 }
