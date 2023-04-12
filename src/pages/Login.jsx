@@ -4,6 +4,7 @@ import arrowRight from "../assets/icons/arrow-right.png";
 import userIcon from "../assets/icons/user.png";
 import lockIcon from "../assets/icons/lock.png";
 import eyeSlashIcon from "../assets/icons/eye-slash.png";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
@@ -69,7 +70,7 @@ export default function Login() {
                     </div>
                   </div>
                   <div className="col-sm-6 d-flex align-items-center forgot-password">
-                    <a href="#">Lupa kata sandi ?</a>
+                    <Link to="/dashboard">Lupa kata sandi ?</Link>
                   </div>
                 </div>
                 <button
