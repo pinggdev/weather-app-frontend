@@ -6,10 +6,13 @@ export default function Navbar() {
   return (
     <div>
       <nav>
-        <div className="logo-brand">
-          <Link>
-            <img src={cloudyLogo} alt="logo" />
-          </Link>
+        <div className="navbar">
+          <div className="logo-brand">
+            <Link>
+              <img className="img-fluid" src={cloudyLogo} alt="logo" />
+              <span className="align-self-cente">Weather Today</span>
+            </Link>
+          </div>
         </div>
       </nav>
     </div>

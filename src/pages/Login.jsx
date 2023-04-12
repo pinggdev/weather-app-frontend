@@ -70,15 +70,15 @@ export default function Login() {
                     </div>
                   </div>
                   <div className="col-sm-6 d-flex align-items-center forgot-password">
-                    <Link to="/dashboard">Lupa kata sandi ?</Link>
+                    <Link to="/">Lupa kata sandi ?</Link>
                   </div>
                 </div>
-                <button
-                  type="submit"
-                  class="btn btn-primary d-flex align-content-center flex-wrap justify-content-center "
+                <Link
+                  to="/dashboard"
+                  class="btn btn-primary d-flex align-content-center flex-wrap justify-content-center button"
                 >
                   Submit <img src={arrowRight} alt="arrow-right" />
-                </button>
+                </Link>
               </form>
             </div>
           </div>
